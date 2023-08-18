@@ -1,0 +1,53 @@
+.container {
+  background-color: #ffe9e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 4rem 2rem 2rem 2rem;
+  position: relative;
+  width: 80%;
+}
+
+.container .image {
+  position: absolute;
+  inset: 0;
+}
+
+.sub-text {
+  width: 50%;
+}
+
+.sub-text h4 {
+  color: #292a29;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 72px;
+  font-family: var(--pri-text);
+  color: #292a29;
+}
+
+.sub-text h4 .seconds {
+  color: #ea4e4b;
+}
+
+.store-button {
+  margin-top: 1rem;
+}
+
+.store-button h5 {
+  font-family: var(--pri-text);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: -10px;
+}
+
+.store-button img {
+  display: inline;
+  width: 15rem;
+}
+
+.store-button img:first-child {
+  margin-right: -60px;
+}

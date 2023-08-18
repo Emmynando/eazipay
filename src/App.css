@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("./aeonik-trial/New/AeonikTRIAL-Bold.otf") format("woff2"),
+    url("./aeonik-trial/New/AeonikTRIAL-Regular.otf") format("woff");
+}
+
+:root {
+  --pri-clr: #11453b;
+  /* --sec-color: rgb(15, 15, 68); */
+  /* --btn-clr: #c58640; */
+  --pri-text: "Aeonik", serif;
+  /* --sec-text: "Cormorant Garamond", serif; */
+}

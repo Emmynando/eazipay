@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  padding: 3rem 1rem 1rem 1rem;
+  width: 80%;
+}
+
+.container p {
+  color: #292a29;
+  font-family: var(--pri-text);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  text-align: left;
+  margin-bottom: 0.8rem;
+}
+
+.container li {
+  font-family: var(--pri-text);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+.container li input {
+  background-color: #f2f1f1;
+  border-radius: 16px;
+  border: transparent;
+  width: 255px;
+  height: 40px;
+  padding: 1rem;
+}
+
+.container li input:focus {
+  outline: #f2f1f1;
+}

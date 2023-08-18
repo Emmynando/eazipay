@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+.hero-text {
+  /* background-color: red; */
+  width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 72px;
+  font-family: var(--pri-text);
+  color: #292a29;
+}
+
+.hero-text h2 .payroll {
+  color: #11453b;
+}
+
+.hero-text h2 .easily {
+  color: #b4a572;
+}
+.hero-text h2 .seconds {
+  color: #ea4e4b;
+}
+
+.hero-text p {
+  font-family: var(--pri-text);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.20000000298023224px;
+}
+
+.hero-text button {
+  background-color: var(--pri-clr);
+  border-color: transparent;
+  color: #fff;
+  width: 260px;
+  height: 56px;
+  padding: 16px 36px;
+  border-radius: 32px;
+}
+
+.store-button {
+  margin-top: 2rem;
+}
+
+.store-button h5 {
+  font-family: var(--pri-text);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.store-button img {
+  display: inline-flex;
+  width: 12rem;
+  height: 10rem;
+  margin-top: -30px;
+}
+
+.store-button img:first-child {
+  margin-right: -40px;
+}

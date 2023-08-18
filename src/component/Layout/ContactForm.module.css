@@ -1,0 +1,87 @@
+.container {
+  position: relative;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.container img {
+  inset: 0;
+  position: absolute;
+}
+
+.items h5 {
+  font-family: var(--pri-text);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.items p {
+  font-family: var(--pri-text);
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: left;
+}
+
+.info {
+  border: 1px solid #e7e8e7;
+  box-shadow: 0 0.2px 30px #ccc;
+  padding: 1rem;
+  border-radius: 32px;
+}
+
+.info h6 {
+  font-family: var(--pri-text);
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.info p {
+  color: #444444;
+  font-family: var(--pri-color);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.info button {
+  width: 180px;
+  padding: 8px 11.5px;
+  border-radius: 12px;
+  border: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.info button:first-of-type {
+  background-color: #11453b;
+  color: #fff;
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.info form input {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid #b5b6b5;
+  margin-bottom: 1rem;
+}
+
+.info .button {
+  background-color: var(--pri-clr);
+  color: #fff;
+  width: 100%;
+  height: 2.5rem;
+  padding: 10px 26px;
+  border-radius: 24px;
+}
