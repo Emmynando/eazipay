@@ -30,6 +30,10 @@ export default function Slider() {
           <p>Payment is done permanently.</p>
         </div>
       </div>
+      <p className={styles.p}>
+        We are happy to answer your queries. Please, reach us at{" "}
+        <span>hello@myeazipay.com</span> and expect our response shortly after.
+      </p>
     </div>
   );
 }
