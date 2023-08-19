@@ -60,29 +60,24 @@
       rgba(217, 235, 205, 0.0266) 100%
     );
   border-radius: 16px;
+  box-shadow: 0 0 20px #292828;
   color: #fff;
   width: 552px;
   height: 320px;
   padding: 3.5rem;
   position: absolute;
   top: 54px;
-  transition: all 0.3s ease-in;
-  opacity: 0.4;
+  /* transition: all 0.3s ease-in; */
+  opacity: 1;
 }
 
 .slide:nth-last-of-type(even) {
-  opacity: 0.6;
+  /* opacity: 0.6; */
   right: -200px;
 }
 
 .slide:last-child {
-  opacity: 1 !important;
   right: -400px;
-}
-
-.slide:hover {
-  opacity: 1;
-  z-index: 1;
 }
 
 .slide h6 {
